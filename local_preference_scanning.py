@@ -1,6 +1,6 @@
 import random
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 OMEGA = 100000    # number of ip addresses
 NUM_VULNERABLE = 1000     # total number of vulnerable ip addresses
@@ -84,21 +84,21 @@ def local_preference_scanning(runs = 1, plot=True):
                 print("Simulation tick: {0} || IPs_infected: {1}. \nAll IPs infected!!!".format(i+1, infected_count))
                 break
 
-        if run==0:
-            plt.plot(y_axis, "-", label = "Run #{}".format(run+1))
-        elif run==1:
-            plt.plot(y_axis, "-.", label = "Run #{}".format(run+1))
-        elif run==2:
-            plt.plot(y_axis, ":", label = "Run #{}".format(run+1))
-        else:
-            plt.plot(y_axis, label = "Run #{}".format(run+1))
-
-    if plot:
-        plt.xlabel("Time tick")
-        plt.ylabel("Number of infected computers")
-        plt.title("Local Preference Scanning: {} Simulation Runs of Worm Propagation".format(runs))
-        plt.legend()
-        plt.show()
+    #     if run==0:
+    #         plt.plot(y_axis, "-", label = "Run #{}".format(run+1))
+    #     elif run==1:
+    #         plt.plot(y_axis, "-.", label = "Run #{}".format(run+1))
+    #     elif run==2:
+    #         plt.plot(y_axis, ":", label = "Run #{}".format(run+1))
+    #     else:
+    #         plt.plot(y_axis, label = "Run #{}".format(run+1))
+    #
+    # if plot:
+    #     plt.xlabel("Time tick")
+    #     plt.ylabel("Number of infected computers")
+    #     plt.title("Local Preference Scanning: {} Simulation Runs of Worm Propagation".format(runs))
+    #     plt.legend()
+    #     plt.show()
 
 
 

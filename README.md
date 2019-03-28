@@ -26,12 +26,15 @@ A total of 6 simulations is performed: three for random scanning technique and a
 Table 1 shows the time ticks taken by each simulation technique to infect all of the 1000 vulnerable computer in the network. For each of the three simulations, all of the vulnerable IPs in the network were infected by time ticks 464, 472 and 446 for random scanning, and time ticks 175, 199 and 189 for local preference scanning. Therefore, worm propagation through local preference scanning is seen to spread more quickly in the network than through random scanning technique. 
 
 ![html dark](https://github.com/sdevkota007/simulationOfInternetWormPropagation/blob/master/screenshots/random_scanning.png)
+
 *Figure 1: Three simulation run on worm propagation by random scanning*
 
 ![html dark](https://github.com/sdevkota007/simulationOfInternetWormPropagation/blob/master/screenshots/local_preference_scanning.png)
+
 *Figure 2: Three simulation run on worm propagation by local preference scanning*
 
 ![html dark](https://github.com/sdevkota007/simulationOfInternetWormPropagation/blob/master/screenshots/table.png)
+
 *Table 1: Time ticks required to infect all vulnerable machines for Random scanning and Local preference scanning*
 
 ## Instruction on how to run the Program:

@@ -1,5 +1,4 @@
-# simulationOfInternetWormPropagation
-Internet Worm Propagation Simulation
+# Simulation Of Internet Worm Propagation
 
 ## Design and Implementation:
 For the purpose of simulation of internet worm propagation in a medium scale network, discrete time simulation technique is used in this program. It is assumed that we have an isolated network with omega(Ω) = 100,000 IP address space. For the sake of simplicity, the IP addresses is treated as having values from 1 to 100,000. There are N=1000 computers vulnerable to worm under consideration in this network and these vulnerable computers have the following specific IP addresses:
